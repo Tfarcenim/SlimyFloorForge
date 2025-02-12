@@ -1,12 +1,12 @@
 {
   "required": true,
-  "package": "com.example.examplemod.mixin",
+  "package": "tfar.slimyfloor.mixin",
   "compatibilityLevel": "JAVA_16",
   "refmap": "examplemod.refmap.json",
   "mixins": [
+    "EntityMixin"
   ],
-  "client":[
-    "ExampleMixin"
+  "client": [
   ],
   "injectors": {
     "defaultRequire": 1
